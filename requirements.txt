@@ -1,7 +1,7 @@
-python-dotenv==1.2.1
 dspy==3.0.3
+jupyterlab==4.4.10
 mlflow==3.5.1
 pandas==2.3.3
 pydantic==2.12.3
+python-dotenv==1.2.1
 pyyaml==6.0.3
-	

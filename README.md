@@ -77,8 +77,12 @@ GROQ_API_KEY= gsk_YXEdbRF7...   # your_api_key
 Run from workshop directory `dspy_workshop`:
 
 ```bash
-uv jupyter notebooks
+jupyter notebook
 ```
+
+it will open Jupyter Notebook in your browser on the page: http://localhost:8888/tree
+
+
 
 ## Pre-requisites
 
