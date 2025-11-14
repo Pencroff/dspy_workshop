@@ -108,41 +108,13 @@ Run MLflow server:
 ./venv/bin/mlflow server --backend-store-uri sqlite:///data/mlflow.db --port 5005
 ```
 
+![mlflow terminal](assets/mlflow_terminal.png)
+
 Check MLflow UI at http://localhost:5005/ or http://127.0.0.1:5005
 
 We will need it for evaluation and optimization notebooks.
 
-## Pre-requisites
-
-* Python 3.12+
-* Jupyter Notebook
-* Groq API cloud provider with `Llama 3.1 8B` model
-  * Advanced users can use local LLMs 
-* Recommended to use venv as an isolated environment
-
-
-* Clone repo and install dependencies from `requirements.txt`
-  * `pip install -r requirements.txt`
-  * `uv pip install -r requirements.txt` if you use `uv`
-* Create a `.env` file with your API keys
-* Validate your setup by `notebooks/00_setup_check.ipynb` Jupiter notebook
-* MLflow for experiment tracking (check below)
-
-We will be using Llama 3.1 8B model for most of our experiments
-
-## MLflow Setup (required for notebooks 04 & 05)
-
-During the workshop, we'll use MLflow to track experiments:
-
-```bash
-# In a separate terminal, start MLflow UI:
-mlflow server --backend-store-uri sqlite:///data/mlflow.db --port 5005
-# Check MLflow UI at http://localhost:5005/ or http://127.0.0.1:5005
-```
-
-## Setup venv
-
-
+![mlflow ui](assets/mlflow_ui.png)
 
 ## Agenda
 
@@ -151,10 +123,9 @@ mlflow server --backend-store-uri sqlite:///data/mlflow.db --port 5005
 3. Core Concepts - 15 mins (notebooks/02_core_concepts.ipynb)
 4. Multi-step Pipeline - 15 mins (notebooks/03_pipeline.ipynb)
 5. Break - 5 mins
-6. Evaluation & Metrics - 15 mins (notebooks/04_evaluation.ipynb)
+6. Evaluation & Metrics - 20 mins (notebooks/04_evaluation.ipynb)
 7. Optimization Demo - 20 mins (notebooks/05_optimization_demo.ipynb)
-8. Practical Tracks & Q&A - 15 mins
-9. Wrap Session - 5 mins
+8. Wrap Session - 5 mins
 
 ## Dataset
 
